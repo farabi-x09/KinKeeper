@@ -20,7 +20,7 @@ const Navber = () => {
       </div>
       <ul
         tabIndex="-1"
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-30 p-2 shadow -left-15">
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-30 p-2 shadow -left-15 top-5">
         <MyNavLink></MyNavLink>
       </ul>
     </div>
