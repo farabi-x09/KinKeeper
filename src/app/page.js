@@ -1,7 +1,11 @@
-import Image from "next/image";
+import FriendsPage from "@/components/homepage/Friends";
+import HeroPage from "@/components/homepage/Hero";
 
 export default function Home() {
   return (
-   <h1>this home</h1>
+    <div>
+      <HeroPage></HeroPage>
+      <FriendsPage></FriendsPage>
+    </div>
   );
 }

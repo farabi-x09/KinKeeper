@@ -7,7 +7,9 @@ import MyNavLink from './MyNavLink';
 const Navber = () => {
 
     return (
-      <div className="sticky rounded-xl top-0 flex justify-between container mx-auto navbar bg-base-100 shadow-sm mb-20">
+      <div className='bg-[#F8FAFC]'>
+        <div className='bg-white sticky rounded-xl top-0'>
+      <div className="container mx-auto  flex justify-between navbar bg-base-100 ">
   <div className=" navbar-start flex justify-between  mx-auto lg:mx-0 w-full">
          <div>
     <Image src={logo} alt='Logo' className='lg:w-40'></Image>
@@ -31,6 +33,8 @@ const Navber = () => {
     </ul>
   </div>
 
+</div>
+</div>
 </div>
     );
 };
