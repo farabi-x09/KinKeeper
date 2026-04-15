@@ -20,7 +20,7 @@
     "status": "almost due",
     "tags": ["work"],
     "bio": "Colleague from my internship. Always helps with coding bugs.",
-    "goal": 14,
+    "goal": 18,
     "next_due_date": "2026-04-16"
   },
   {
@@ -44,7 +44,7 @@
     "status": "overdue",
     "tags": ["travel"],
     "bio": "Met during a trip. Planning another adventure soon.",
-    "goal": 14,
+    "goal": 11,
     "next_due_date": "2026-04-05"
   },
   {
@@ -56,7 +56,7 @@
     "status": "almost due",
     "tags": ["family"],
     "bio": "Cousin who lives abroad. We catch up occasionally.",
-    "goal": 14,
+    "goal": 17,
     "next_due_date": "2026-04-17"
   },
   {
@@ -68,7 +68,7 @@
     "status": "on-track",
     "tags": ["work"],
     "bio": "Teammate from a freelance project. Great designer.",
-    "goal": 14,
+    "goal": 12,
     "next_due_date": "2026-04-21"
   },
   {
@@ -80,7 +80,7 @@
     "status": "overdue",
     "tags": ["college"],
     "bio": "Used to do group studies together before exams.",
-    "goal": 14,
+    "goal": 13,
     "next_due_date": "2026-04-08"
   },
   {
@@ -92,7 +92,7 @@
     "status": "almost due",
     "tags": ["hobby"],
     "bio": "Gaming buddy. We play online on weekends.",
-    "goal": 14,
+    "goal": 19,
     "next_due_date": "2026-04-18"
   },
   {
@@ -104,7 +104,7 @@
     "status": "on-track",
     "tags": ["close friend "],
     "bio": "One of my closest friends. We talk about everything.",
-    "goal": 14,
+    "goal": 11,
     "next_due_date": "2026-04-25"
   },
   {
@@ -116,7 +116,7 @@
     "status": "overdue",
     "tags": ["work"],
     "bio": "Former coworker. Great mentor in my early career.",
-    "goal": 14,
+    "goal": 18,
     "next_due_date": "2026-04-12"
   },
   {
@@ -128,7 +128,7 @@
     "status": "almost due",
     "tags": ["family"],
     "bio": "We meet during family gatherings and share updates.",
-    "goal": 14,
+    "goal": 10,
     "next_due_date": "2026-04-19"
   },
   {
@@ -140,7 +140,7 @@
     "status": "on-track",
     "tags": ["travel", "travel"],
     "bio": "Met while backpacking. Still share travel tips.",
-    "goal": 14,
+    "goal": 15,
     "next_due_date": "2026-04-26"
   }
 ]
