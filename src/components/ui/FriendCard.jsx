@@ -5,7 +5,7 @@ import React from 'react';
 
 const FriendCard = ({ friend }) => {
     return (
-        <Link href={`/home/${friend.id}`} className='card bg-white p-10 text-center flex  items-center space-y-1 max-w-[350] rounded-2xl'>
+        <Link href={`/home/${friend.id}`} className='card bg-white p-10 text-center flex  items-center space-y-1 max-w-[350] rounded-2xl border border-gray-300'>
             <figure>
                 <Image width={200} height={200} src={friend.picture} alt={friend.name} className="w-20" />
             </figure>

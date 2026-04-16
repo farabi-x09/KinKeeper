@@ -4,7 +4,7 @@ import React from 'react';
 const HeroPage = () => {
     return (
     <div className='bg-[#F8FAFC] pb-10 pt-20'>
-        <div className=' container mx-auto border-b border-gray-400'>
+        <div className=' w-11/12 mx-auto border-b border-gray-400'>
             <div className='text-center space-y-4'>
                 <h1 className='font-bold text-3xl lg:text-4xl'>Friends to keep close in your life</h1>
                 <p className='max-w-150 mx-auto text-gray-500'>

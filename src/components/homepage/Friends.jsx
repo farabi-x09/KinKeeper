@@ -23,7 +23,7 @@ const FriendsPage = async () => {
 
     return (
         <div className='bg-[#F8FAFC]'>
-            <div className='container mx-auto py-10'>
+            <div className='w-11/12 mx-auto py-10'>
                 <h1 className='font-bold text-3xl mb-10 text-center md:text-left'>Your Friends</h1>
                 <div>
 
