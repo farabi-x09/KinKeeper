@@ -7,8 +7,8 @@ import MyNavLink from './MyNavLink';
 const Navber = () => {
 
     return (
-      <div className='bg-[#F8FAFC]'>
-        <div className='bg-white sticky rounded-xl top-0'>
+      <div className='sticky top-0  z-100 w-full bg-[#F8FAFC]'>
+        <div className=' bg-white  rounded-xl top-0'>
       <div className="container mx-auto  flex justify-between navbar bg-base-100 ">
   <div className=" navbar-start flex justify-between  mx-auto lg:mx-0 w-full">
          <div>

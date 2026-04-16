@@ -6,13 +6,12 @@ import { toast } from 'react-toastify';
 
 const SendPart = ({ friend }) => {
 
-    const {send, setSend} = useContext(SendContext);
+    const {send, setSend } = useContext(SendContext);
     console.log(send,"somthing");
 
     const handleSend = () =>{
-        console.log("sendddd");
-        setSend([...send,friend])
-        toast.success(`${friend.name} is successfully Call`)
+        setSend([...send,{ ...friend, type: "call" }])
+        toast.success(`${friend.name} is successfully called`)
     }
     return (
         <div className='px-15 py-5  bg-[#F8FAFC] rounded-2xl border border-gray-400 flex flex-col items-center w-45 h-25' onClick={handleSend}>

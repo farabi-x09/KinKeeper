@@ -32,7 +32,10 @@ export default function RootLayout({ children }) {
         <Navber></Navber>
         {children}
         <FooterPage></FooterPage>
-          <ToastContainer />
+         <ToastContainer 
+          position="bottom-right"
+          autoClose={2000}
+        />
         </Providers>
         </body>
     </html>

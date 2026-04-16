@@ -1,6 +1,11 @@
+// "use client"
 import SendPart from '@/components/send/SendPart';
+import SendTextPart from '@/components/send/SendTextPart';
+import SendVideoPart from '@/components/send/SendVideoPart';
+import { SendContext } from '@/context/send.context';
 import Image from 'next/image';
-import React from 'react';
+import React, { useContext } from 'react';
+import { BiSolidPhoneCall } from 'react-icons/bi';
 import { BsChatLeftTextFill } from 'react-icons/bs';
 import { IoMdVideocam } from 'react-icons/io';
 import { LuArchive } from 'react-icons/lu';
@@ -18,6 +23,9 @@ const FriendDetailsPage = async ({ params }) => {
     const { id } = await params;
     const friend = friends.find(friend => friend.id == id);
     // console.log(friend, 'friend');
+    
+
+     
 
     return (
         <div className='bg-[#F8FAFC] py-20'>
@@ -100,18 +108,15 @@ const FriendDetailsPage = async ({ params }) => {
                         </div>
                         <button className='btn '>Edit</button>
                     </div>
+
                     <div className='bg-white p-8 rounded-xl border border-gray-300'>
                          <h4 className='text-[#244D3F] font-semibold mb-3 text-xl'>Quick Check-In</h4>
                          <div className='flex md:justify-between flex-wrap space-y-8 justify-center space-x-5'>
-                            <SendPart friend={friend}></SendPart>
-                            <div className='px-15 py-5  bg-[#F8FAFC] rounded-2xl border border-gray-400 flex flex-col items-center w-45 h-25'>
-                                <p><BsChatLeftTextFill /></p>
-                                <p className='text-gray-600 mt-2'>Text</p>
-                            </div>
-                            <div className='px-15 py-5  bg-[#F8FAFC] rounded-2xl border border-gray-400 flex flex-col items-center w-45 h-25'>
-                                <p><IoMdVideocam /></p>
-                                <p className='text-gray-600 mt-2'>Video</p>
-                            </div>
+
+                            
+                            <SendPart callValue="call" friend={friend}></SendPart>
+                            <SendTextPart friend={friend}></SendTextPart>
+                         <SendVideoPart friend={friend}></SendVideoPart>
                          
                          </div>
                     </div>
