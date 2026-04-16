@@ -17,11 +17,11 @@ const HeroPage = () => {
             <div className='justify-center  flex gap-5 mx-auto flex-wrap my-10 '>
 
                 <div className=' p-10 text-center rounded-xl bg-white shadow w-[320]'>
-                    <p className='font-bold text-2xl mb-2'>10</p>
+                    <p className='font-bold text-2xl mb-2'>12</p>
                     <p className='text-gray-400'>Total Friends</p>
                 </div>
                 <div className=' p-10 text-center rounded-xl bg-white shadow w-[320]'>
-                    <p className='font-bold text-2xl mb-2'>3</p>
+                    <p className='font-bold text-2xl mb-2'>4</p>
                     <p className='text-gray-400'>On Track</p>
                 </div>
                 <div className=' p-10 text-center rounded-xl bg-white shadow w-[320]'>

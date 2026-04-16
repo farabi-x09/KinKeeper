@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌿 KeenKeeper
 
-## Getting Started
+**KeenKeeper** is a personal relationship management dashboard designed to help you keep close to the people who matter most. In a world of digital noise, KeenKeeper helps you browse, tend, and nurture your meaningful connections through insightful tracking and visual analytics.
 
-First, run the development server:
+## 🚀 Project Overview
+A modern web application built for individuals who want to be intentional about their social lives. KeenKeeper tracks your interactions—whether they are calls, texts, or video chats—and provides a visual "Friendship Analytics" dashboard to ensure no important connection is left behind.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Technologies Used
+* **Framework:** [Next.js](https://nextjs.org/) (App Router)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) & [DaisyUI](https://daisyui.com/)
+* **State Management:** React Context API (`SendContext`)
+* **Data Visualization:** [Recharts](https://recharts.org/) (Doughnut Charts)
+* **Notifications:** [React-Toastify](https://github.com/fkhadra/react-toastify)
+* **Deployment:** [Vercel](https://vercel.com/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Key Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 1. Interactive Relationship Dashboard
+View your entire social circle at a glance with high-level statistics, including "Total Friends," "On Track" connections, and those who "Need Attention" based on your recent activity.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2. Smart Interaction Timeline
+A detailed, filterable history of every communication. Features a custom dropdown filter that allows you to instantly toggle between **Calls**, **Texts**, and **Video** interactions to see how you are spending your time.
 
-## Learn More
+### 3. Friendship Analytics (Visual Insights)
+Utilizes dynamic doughnut charts to provide a breakdown of interaction types. This visual feedback helps identify communication patterns and prompts more meaningful visits.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
