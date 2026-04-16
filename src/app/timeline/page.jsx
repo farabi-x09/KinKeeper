@@ -40,7 +40,7 @@ const TimeLinePage = () => {
                         </div>
                         <ul 
                             tabIndex={0} 
-                            className="dropdown-content z-[1] menu p-2 shadow-xl bg-white rounded-box w-52 mt-2 border border-gray-100"
+                            className="dropdown-content z-[1] menu p-2 shadow-xl bg-white rounded-box w-52 mt-2 border border-gray-100 translate-x-13"
                         >
                             {filterOptions.map((option) => (
                                 <li key={option}>
